@@ -29,7 +29,6 @@ export default class HangmanGame {
 
   public start() {
     this.attachScreen(new HangmanGameScreen(this));
-    console.log(this.screen);
   }
 
   public getCanvas() {
